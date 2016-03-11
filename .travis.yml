@@ -1,0 +1,19 @@
+language: java
+jdk:
+- oraclejdk8
+sudo: false
+#deploy:
+#  edge: true
+#  provider: cloudfoundry
+#  api: https://api.run.pivotal.io
+#  username: andreas.evers@ordina.be
+#  password:
+#    secure: "ePYGPptcR325juBkQ+PlbMW2a8lbtaVNENeHEUPjDT0bAgayI7ZEgXmmXBSCI9HRzfZvZ5EL8rhNiuCt9RfVSRxRNlRg+Rz57wtXgd8sZlrkTbYCemCDypW9FdxvrWfa0pcE8osqQQNJ1YjRMx8F1dfRwKb67s6a5RqQXbGwXjy57bZQjpEmxVXkeL4fMnlkzoaP/R9603leZ8AgS+vwzMhav3EEYDY1lJqApspiuM3+nP2NUwDceK+YAu0hy6Qd20toy0CCsKz6MoNimlL20P8ZJIr0VpoU9OHbK4xeVUczgMsci2OH+uH2+kVDZDTRAFmRXeT/AwGYBv+2ergCuw5G1VP9varorefn1c1NGI9Y62m0duihhX9fnmMKAj6zO5915IyVYfVF39o9QoWB9yNVrxiouuXBRR+KhY+ODaLGZbwtmBGYRJdiH4+NihGPMw9sSH97nbzaDHcEMSRYe0aXrbqdxsieFEmMZS4E61e5spb45V/7V3+WwuQ3T+x5Qr1MesULy+81Fk5STJS0ClcgPPOu1d6M0ktFHrGZSgoFpdbUV/iqOVEOLHqVlhiTRc3oWEfMhWDV2n7ugBUt2keZiDDbrCDtSyOCW2gpK6I19PVeVIiKZJA6dgnbG0Qgmz3cKdhzp8bajynVe0S5cyDAOM2Ae1+VdgHksAjKGe4="
+#  organization: OrdinaBelgiumNV
+#  space: development
+#  on:
+#    repo: Ordineo/eureka
+#    branch: master
+notifications:
+  slack:
+    secure: FTLz7+bXmKO4r+AMEPtu8IEMGCeiffDgDIIANlw81JxHbIFwYjqHKYP3qCipGQ913N+2Fh34SbFRd6KNX50YEdBlTmdd45lfSC3tG2XxjiM+DY/cz6v//HzqviQqmfUrh5pUbamXcb7TddFkX+yTQ6G69uhXBiwNJMEts2S9CulwoQbX/KhrCtx8yEsnWjlX3xrp2mlPIPxlZzsdYIxzbW5LXFN/55x2M942fTomLbYadCL3c3AjC2wAVG4TA0Jaf646REntmKx0NAjDB8hbCYugrdnewjj6ZHXnHgz8jIgWAQuXR81I00JLj0dFgvA8aghBayJy1ffnRQZiLT+EysctQYQ5hMzkzQ/KG/3KfeAvYB19AEdyv+okVAZoIaOGbv/ThiqvrssNOf3sMJhvWIfD6BUfqE5RGY5Ppnv68mSojUZcELvSjIEOi1OxGkKBaKjg0nFvsqMwM64ky2m9svIA3w4Lecsn9ZjpXRORcXgnsvcN9v7xlfTfVDSjvuu+M/4YeU0cO0qNuEOqSATzOABCSI2UOxbpz1HaNHG7pbqE3vQRwh/dLAuwzEK5wYM0f18dxA1zH4V0gS3TF+OuBxMF0xEKcgpnPF+Ma2a5FzSbg8fmxmIDzSo3SgdrWAjEoSYp3700/U0YswxICEnQMNrq/huYX5LPhODQpva1RwA=
