@@ -14,6 +14,8 @@ deploy:
   on:
     repo: Ordineo/eureka
     branch: master
+after_deploy:
+- mvn clean test jacoco:report coveralls:report
 notifications:
   slack:
     secure: FTLz7+bXmKO4r+AMEPtu8IEMGCeiffDgDIIANlw81JxHbIFwYjqHKYP3qCipGQ913N+2Fh34SbFRd6KNX50YEdBlTmdd45lfSC3tG2XxjiM+DY/cz6v//HzqviQqmfUrh5pUbamXcb7TddFkX+yTQ6G69uhXBiwNJMEts2S9CulwoQbX/KhrCtx8yEsnWjlX3xrp2mlPIPxlZzsdYIxzbW5LXFN/55x2M942fTomLbYadCL3c3AjC2wAVG4TA0Jaf646REntmKx0NAjDB8hbCYugrdnewjj6ZHXnHgz8jIgWAQuXR81I00JLj0dFgvA8aghBayJy1ffnRQZiLT+EysctQYQ5hMzkzQ/KG/3KfeAvYB19AEdyv+okVAZoIaOGbv/ThiqvrssNOf3sMJhvWIfD6BUfqE5RGY5Ppnv68mSojUZcELvSjIEOi1OxGkKBaKjg0nFvsqMwM64ky2m9svIA3w4Lecsn9ZjpXRORcXgnsvcN9v7xlfTfVDSjvuu+M/4YeU0cO0qNuEOqSATzOABCSI2UOxbpz1HaNHG7pbqE3vQRwh/dLAuwzEK5wYM0f18dxA1zH4V0gS3TF+OuBxMF0xEKcgpnPF+Ma2a5FzSbg8fmxmIDzSo3SgdrWAjEoSYp3700/U0YswxICEnQMNrq/huYX5LPhODQpva1RwA=
